@@ -48,22 +48,6 @@ ul {
   margin-bottom: 0;
 }
 
-li {
-  display: inline-flex;
-  font-size: 12px;
-  margin-right: 2ch;
-  align-items: center;
-  flex-wrap: nowrap;
-  transform: translateX(-500%);
-  animation: slideIn 2s ease-in-out forwards;
-}
-
-@keyframes slideIn {
-  to {
-    transform: translateX(0);
-  }
-}
-
 div.ellipsis {
   height: 100%;
   overflow: hidden;
