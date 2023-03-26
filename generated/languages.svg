@@ -116,7 +116,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #6594b9;width: 56.637%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 34.562%;" class="progress-item"></span><span style="background-color: #3572A5;width: 8.769%;" class="progress-item"></span><span style="background-color: #563d7c;width: 0.032%;" class="progress-item"></span>
+<span style="background-color: #6594b9;width: 56.578%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 34.569%;" class="progress-item"></span><span style="background-color: #3572A5;width: 8.760%;" class="progress-item"></span><span style="background-color: #563d7c;width: 0.093%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -128,7 +128,7 @@ div.ellipsis {
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">AutoHotkey</span>
-<span class="percent">56.64%</span>
+<span class="percent">56.58%</span>
 </li>
 
 
@@ -137,7 +137,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">JavaScript</span>
-<span class="percent">34.56%</span>
+<span class="percent">34.57%</span>
 </li>
 
 
@@ -146,7 +146,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Python</span>
-<span class="percent">8.77%</span>
+<span class="percent">8.76%</span>
 </li>
 
 
@@ -155,7 +155,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">CSS</span>
-<span class="percent">0.03%</span>
+<span class="percent">0.09%</span>
 </li>
 
 
