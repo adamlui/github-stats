@@ -124,7 +124,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #f1e05a;width: 72.666%;" class="progress-item"></span><span style="background-color: #3572A5;width: 11.518%;" class="progress-item"></span><span style="background-color: #6594b9;width: 11.269%;" class="progress-item"></span><span style="background-color: #e34c26;width: 3.110%;" class="progress-item"></span><span style="background-color: #563d7c;width: 1.416%;" class="progress-item"></span><span style="background-color: #C1F12E;width: 0.022%;" class="progress-item"></span>
+<span style="background-color: #f1e05a;width: 72.653%;" class="progress-item"></span><span style="background-color: #3572A5;width: 11.541%;" class="progress-item"></span><span style="background-color: #6594b9;width: 11.261%;" class="progress-item"></span><span style="background-color: #e34c26;width: 3.108%;" class="progress-item"></span><span style="background-color: #563d7c;width: 1.415%;" class="progress-item"></span><span style="background-color: #C1F12E;width: 0.022%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -136,7 +136,7 @@ div.ellipsis {
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">JavaScript</span>
-<span class="percent">72.67%</span>
+<span class="percent">72.65%</span>
 </li>
 
 
@@ -145,7 +145,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Python</span>
-<span class="percent">11.52%</span>
+<span class="percent">11.54%</span>
 </li>
 
 
@@ -154,7 +154,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">AutoHotkey</span>
-<span class="percent">11.27%</span>
+<span class="percent">11.26%</span>
 </li>
 
 
