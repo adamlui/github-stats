@@ -1,4 +1,4 @@
-<svg id="gh-dark-mode-only" width="360" height="210" xmlns="http://www.w3.org/2000/svg">
+<svg id="gh-dark-mode-only" width="360" height="166" xmlns="http://www.w3.org/2000/svg">
 <style>
 svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
@@ -124,7 +124,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #f1e05a;width: 76.284%;" class="progress-item"></span><span style="background-color: #3572A5;width: 11.940%;" class="progress-item"></span><span style="background-color: #6594b9;width: 7.874%;" class="progress-item"></span><span style="background-color: #e34c26;width: 2.204%;" class="progress-item"></span><span style="background-color: #563d7c;width: 0.975%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.707%;" class="progress-item"></span><span style="background-color: #C1F12E;width: 0.015%;" class="progress-item"></span>
+<span style="background-color: #f1e05a;width: 76.287%;" class="progress-item"></span><span style="background-color: #3572A5;width: 11.937%;" class="progress-item"></span><span style="background-color: #6594b9;width: 7.874%;" class="progress-item"></span><span style="background-color: #e34c26;width: 2.205%;" class="progress-item"></span><span style="background-color: #563d7c;width: 0.975%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.707%;" class="progress-item"></span><span style="background-color: #C1F12E;width: 0.015%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -136,7 +136,7 @@ div.ellipsis {
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">JavaScript</span>
-<span class="percent">76.28%</span>
+<span class="percent">76.29%</span>
 </li>
 
 
