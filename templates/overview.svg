@@ -40,10 +40,6 @@ th {
   font-weight: 600;
 }
 
-#gh-dark-mode-only:target th {
-  color: #58a6ff;
-}
-
 td {
   margin-bottom: 16px;
   margin-top: 8px;
