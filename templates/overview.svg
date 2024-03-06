@@ -40,7 +40,7 @@ th {
 }
 
 #gh-dark-mode-only:target th {
-  color: white;
+  color: #c9d1d9;
 }
 
 td {
