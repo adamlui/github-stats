@@ -3,11 +3,11 @@
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
-<a href="https://github.com/adamlui/github-stats">
-<img src="https://github.com/adamlui/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/adamlui/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/adamlui/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/adamlui/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
+<a href="https://github.com/10086100886/github-stats">
+<img src="https://github.com/10086100886/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/10086100886/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/10086100886/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/10086100886/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
 </a>
 
 Generate visualizations of GitHub user and repository statistics with GitHub
@@ -29,7 +29,7 @@ year.
 This project aims to collect a variety of profile and repository statistics
 using the GitHub API. It then generates images that can be displayed in
 repository READMEs, or in a user's [Profile
-README](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+README](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme)。
 
 Since the project runs on GitHub Actions, no server is required to regularly
 regenerate the images with updated statistics. Likewise, since the user runs
@@ -56,9 +56,9 @@ last contributed to more than a year ago may not be included in the statistics
 due to limitations in the results returned by the API.
 
 For more information on inaccuracies, see issue
-[#2](https://github.com/jstrieb/github-stats/issues/2),
-[#3](https://github.com/jstrieb/github-stats/issues/3), and
-[#13](https://github.com/jstrieb/github-stats/issues/13).
+[#2](https://github.com/jstrieb/github-stats/issues/2)，
+[#3](https://github.com/jstrieb/github-stats/issues/3)，和
+[#13](https://github.com/jstrieb/github-stats/issues/13)。
 
 # Installation
 
