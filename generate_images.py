@@ -99,7 +99,7 @@ async def main() -> None:
     """
     access_token = os.getenv("ACCESS_TOKEN")
     if not access_token:
-        raise Exception("A personal access token is required to proceed!")
+        raise RuntimeError("A personal access token is required to proceed!")
     user = os.getenv("GITHUB_ACTOR")
     if user is None:
         raise RuntimeError("Environment variable GITHUB_ACTOR must be set.")
