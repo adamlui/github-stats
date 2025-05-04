@@ -35,12 +35,12 @@ async def generate_overview(s: Stats) -> None:
     with open("templates/overview.svg", "r") as f:
         output = f.read()
 
-    output = re.sub("{{ name }}", await s.name, output)
-    output = re.sub("{{ stars }}", f"{await s.stargazers:,}", output)
-    output = re.sub("{{ forks }}", f"{await s.forks:,}", output)
-    output = re.sub("{{ contributions }}", f"{await s.total_contributions:,}", output)
+    output = output.replace("{{ name }}", await s.name)
+    output = output.replace("{{ stars }}", f"{await s.stargazers:,}")
+    output = output.replace("{{ forks }}", f"{await s.forks:,}", output)
+    output = output.replace("{{ contributions }}", f"{await s.total_contributions:,}")
     changed = (await s.lines_changed)[0] + (await s.lines_changed)[1]
-    output = re.sub("{{ lines_changed }}", f"{changed:,}", output)
+    output = output.replace("{{ lines_changed }}", f"{changed:,}")
 
     generate_output_folder()
     with open("generated/overview.svg", "w") as f:
