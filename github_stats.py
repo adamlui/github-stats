@@ -51,7 +51,7 @@ class Queries(object):
             result = await r_async.json()
             if result is not None:
                 return result
-        except Exception as e:
+        except Exception:
             print("aiohttp failed for GraphQL query")
             # Fall back on non-async requests
             async with self.semaphore:
