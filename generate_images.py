@@ -32,14 +32,18 @@ async def generate_overview(s: Stats) -> None:
     Generate an SVG badge with summary statistics
     :param s: Represents user's GitHub statistics
     """
-    with open("templates/overview.svg", "r") as f:
-        output = f.read()
-
+    # Read file in thread pool to avoid blocking
+    loop = asyncio.get_event_loop()
+    output = await loop.run_in_executor(
+        None, 
+        lambda: open("templates/overview.svg", "r").read()
+    )
     output = output.replace("{{ name }}", await s.name)
     output = output.replace("{{ stars }}", f"{await s.stargazers:,}")
     output = output.replace("{{ forks }}", f"{await s.forks:,}")
     output = output.replace("{{ contributions }}", f"{await s.total_contributions:,}")
-    changed = (await s.lines_changed)[0] + (await s.lines_changed)[1]
+    lines_changed = await s.lines_changed
+    changed = lines_changed[0] + lines_changed[1]
     output = output.replace("{{ lines_changed }}", f"{changed:,}")
 
     generate_output_folder()
